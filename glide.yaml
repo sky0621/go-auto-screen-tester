@@ -1,0 +1,8 @@
+package: github.com/sky0621/go-auto-screen-tester
+import:
+- package: github.com/labstack/gommon
+  version: ~0.2.2
+  subpackages:
+  - log
+- package: github.com/sclevine/agouti
+  version: ~2.0.0
