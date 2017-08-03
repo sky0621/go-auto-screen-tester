@@ -12,7 +12,7 @@ func main() {
 	}
 	defer driver.Stop()
 
-	page, err := driver.NewPage(agouti.Browser("chrome"))
+	page, err := driver.NewPage()
 	if err != nil {
 		log.Fatalf("new page failed %#v", err)
 	}
